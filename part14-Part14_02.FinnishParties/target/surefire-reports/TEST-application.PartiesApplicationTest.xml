@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="application.PartiesApplicationTest" time="1.26" tests="1" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1250"/>
+    <property name="java.class.path" value="C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties\target\test-classes;C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties\target\classes;C:\Users\augma\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\augma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\augma\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\augma\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\augma\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\augma\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\augma\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="PL"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\augma\AppData\Local\Temp\surefire7536925111227519031\surefirebooter3917385358472054790.jar C:\Users\augma\AppData\Local\Temp\surefire7536925111227519031 2023-07-13T23-07-39_604-jvmRun1 surefire12055839661425732717tmp surefire_013118872474012834593tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties\target\test-classes;C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties\target\classes;C:\Users\augma\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\augma\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\augma\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;C:\Users\augma\.m2\repository\org\testfx\testfx-junit\4.0.15-alpha\testfx-junit-4.0.15-alpha.jar;C:\Users\augma\.m2\repository\org\testfx\testfx-core\4.0.15-alpha\testfx-core-4.0.15-alpha.jar;C:\Users\augma\.m2\repository\org\assertj\assertj-core\3.11.1\assertj-core-3.11.1.jar;C:\Users\augma\.m2\repository\org\testfx\openjfx-monocle\jdk-11+26\openjfx-monocle-jdk-11+26.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-base\11-ea+25\javafx-base-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-controls\11-ea+25\javafx-controls-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-graphics\11-ea+25\javafx-graphics-11-ea+25-win.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-base\11.0.2\javafx-base-11.0.2.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-controls\11.0.2\javafx-controls-11.0.2.jar;C:\Users\augma\.m2\repository\org\openjfx\javafx-graphics\11.0.2\javafx-graphics-11.0.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\augma"/>
+    <property name="user.language" value="pl"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-07-19"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\augma\AppData\Local\Temp\surefire7536925111227519031\surefirebooter3917385358472054790.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.16+8"/>
+    <property name="user.name" value="augma"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-11.0.16+8"/>
+    <property name="localRepository" value="C:\Users\augma\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\augma\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.16"/>
+    <property name="user.dir" value="C:\Users\augma\Documents\NetBeansProjects\mooc-java-programming-i\mooc-java-programming-ii\part14-Part14_02.FinnishParties"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Eclipse Adoptium\jdk-11.0.16.8-hotspot\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files (x86)\apache-maven-3.9.1-bin\apache-maven-3.9.1\bin;C:\Users\augma\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.1.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="11.0.16+8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="chartTest" classname="application.PartiesApplicationTest" time="1.166">
+    <error message="java.util.concurrent.ExecutionException: java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10" type="java.lang.RuntimeException">java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10
+	at application.PartiesApplicationTest.start(PartiesApplicationTest.java:57)
+</error>
+    <system-err><![CDATA[--- Exception in Async Thread ---
+java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10
+	org.junit.Assert.fail(Assert.java:88)
+	application.PartiesApplicationTest.start(PartiesApplicationTest.java:57)
+	org.testfx.framework.junit.ApplicationAdapter.start(ApplicationAdapter.java:41)
+	org.testfx.toolkit.impl.ApplicationServiceImpl.lambda$start$0(ApplicationServiceImpl.java:49)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	java.base/java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	java.base/java.lang.Thread.run(Thread.java:829)
+--- Trace of caller of unhandled exception in Async Thread ---
+	java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+	org.testfx.util.WaitForAsyncUtils$ASyncFXCallable.<init>(WaitForAsyncUtils.java:650)
+	org.testfx.util.WaitForAsyncUtils.asyncFx(WaitForAsyncUtils.java:258)
+	org.testfx.toolkit.impl.ApplicationServiceImpl.start(ApplicationServiceImpl.java:48)
+	org.testfx.toolkit.impl.ToolkitServiceImpl.lambda$setupApplication$6(ToolkitServiceImpl.java:127)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+
+--- Exception in Async Thread ---
+java.util.concurrent.ExecutionException: java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10
+	java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	org.testfx.util.WaitForAsyncUtils$ASyncFXCallable.get(WaitForAsyncUtils.java:697)
+	org.testfx.toolkit.impl.ToolkitServiceImpl.lambda$setupApplication$6(ToolkitServiceImpl.java:127)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10
+	org.junit.Assert.fail(Assert.java:88)
+	application.PartiesApplicationTest.start(PartiesApplicationTest.java:57)
+	org.testfx.framework.junit.ApplicationAdapter.start(ApplicationAdapter.java:41)
+	org.testfx.toolkit.impl.ApplicationServiceImpl.lambda$start$0(ApplicationServiceImpl.java:49)
+	java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$10(PlatformImpl.java:428)
+	java.base/java.security.AccessController.doPrivileged(Native Method)
+	com.sun.javafx.application.PlatformImpl.lambda$runLater$11(PlatformImpl.java:427)
+	com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:96)
+	com.sun.glass.ui.win.WinApplication._runLoop(Native Method)
+	com.sun.glass.ui.win.WinApplication.lambda$runLoop$3(WinApplication.java:174)
+	java.base/java.lang.Thread.run(Thread.java:829)
+--- Trace of caller of unhandled exception in Async Thread ---
+	java.base/java.lang.Thread.getStackTrace(Thread.java:1602)
+	org.testfx.util.WaitForAsyncUtils$ASyncFXCallable.<init>(WaitForAsyncUtils.java:650)
+	org.testfx.util.WaitForAsyncUtils.async(WaitForAsyncUtils.java:193)
+	org.testfx.toolkit.impl.ToolkitServiceImpl.setupApplication(ToolkitServiceImpl.java:123)
+	org.testfx.api.FxToolkit.setupApplication(FxToolkit.java:153)
+	org.testfx.framework.junit.ApplicationTest.internalBefore(ApplicationTest.java:86)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:24)
+	org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+]]></system-err>
+  </testcase>
+</testsuite>

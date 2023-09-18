@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: application.PartiesApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.26 s <<< FAILURE! - in application.PartiesApplicationTest
+chartTest(application.PartiesApplicationTest)  Time elapsed: 1.166 s  <<< ERROR!
+java.lang.RuntimeException: java.util.concurrent.ExecutionException: java.lang.AssertionError: Make sure that the PartiesApplication class has a method called start that receives a Stage object as its parameter. If it has, make sure that the method works correctly. The error: Index 10 out of bounds for length 10
+	at application.PartiesApplicationTest.start(PartiesApplicationTest.java:57)
+

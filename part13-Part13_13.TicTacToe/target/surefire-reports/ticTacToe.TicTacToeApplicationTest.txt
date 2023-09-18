@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: ticTacToe.TicTacToeApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 2.943 s <<< FAILURE! - in ticTacToe.TicTacToeApplicationTest
+turnChangesWhenGameIsPlayed(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 1.131 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:120)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed(TicTacToeApplicationTest.java:103)
+
+samePositionCannotBePlayedTwice(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.252 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkThatSamePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:194)
+	at ticTacToe.TicTacToeApplicationTest.samePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:139)
+
+turnChangesWhenGameIsPlayed2(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.249 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:120)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed2(TicTacToeApplicationTest.java:109)
+
+turnChangesWhenGameIsPlayed3(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.245 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkTurnChange(TicTacToeApplicationTest.java:120)
+	at ticTacToe.TicTacToeApplicationTest.turnChangesWhenGameIsPlayed3(TicTacToeApplicationTest.java:115)
+
+samePositionCannotBePlayedTwice2(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.247 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkThatSamePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:194)
+	at ticTacToe.TicTacToeApplicationTest.samePositionCannotBePlayedTwice2(TicTacToeApplicationTest.java:145)
+
+samePositionCannotBePlacedTwice3(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.247 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.checkThatSamePositionCannotBePlayedTwice(TicTacToeApplicationTest.java:194)
+	at ticTacToe.TicTacToeApplicationTest.samePositionCannotBePlacedTwice3(TicTacToeApplicationTest.java:151)
+
+gameCanBeWonOrLost(ticTacToe.TicTacToeApplicationTest)  Time elapsed: 0.238 s  <<< FAILURE!
+org.junit.ComparisonFailure: At the beginning of the game the text label should display "Turn: X". Now it contained the text: "Turn: ". expected:<Turn: [X]> but was:<Turn: []>
+	at ticTacToe.TicTacToeApplicationTest.gameCanBeWonOrLost(TicTacToeApplicationTest.java:158)
+
